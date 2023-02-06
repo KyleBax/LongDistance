@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongDistance", "LongDistance.csproj", "{0B455354-CB58-4EA8-8FF5-621F4089EF2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B455354-CB58-4EA8-8FF5-621F4089EF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B455354-CB58-4EA8-8FF5-621F4089EF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B455354-CB58-4EA8-8FF5-621F4089EF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B455354-CB58-4EA8-8FF5-621F4089EF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {914AB38F-95BB-483C-816A-A2393DA32884}
+	EndGlobalSection
+EndGlobal
