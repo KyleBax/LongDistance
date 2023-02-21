@@ -1,6 +1,6 @@
 ﻿namespace LongDistance
 {
-    internal class Calander
+    internal class CalanderEntry
     {
 
     }
