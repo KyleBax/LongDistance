@@ -50,9 +50,9 @@
             set { _dateOfBirth = value; }
         }
 
-        private List<CalanderEntry> _calendar;   
+        private List<CalendarEntry> _calendar;   
 
-        public List<CalanderEntry> Calendar
+        public List<CalendarEntry> Calendar
         {
             get { return _calendar; }
             set { _calendar = value; }
