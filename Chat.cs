@@ -2,21 +2,21 @@
 {
     internal class Chat
     {
-        private List<string> _messagesSent;
+        private List<string> _meassages;
 
-        public List<string> MessagesSent
+        public List<string> Messages
         {
-            get { return _messagesSent; }
-            set { _messagesSent = value; }
+            get { return _meassages; }
+            set { _meassages = value; }
         }
 
 
-        private List<string> _messagesRecieved;
+        private int _sentByUserID;
 
-        public List<string> MessagesRecieved
+        public int SentByUserID
         {
-            get { return _messagesRecieved; }
-            set { _messagesRecieved = value; }
+            get { return _sentByUserID; }
+            set { _sentByUserID = value; }
         }
 
 
