@@ -2,9 +2,9 @@
 {
     internal class User
     {
-        private int _name;
+        private string _name;
 
-        public int Name
+        public string Name
         {
             get { return _name; }
             set { _name = value; }

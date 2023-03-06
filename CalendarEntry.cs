@@ -27,16 +27,21 @@
             set { _details = value; }
         }
 
-        //unsure about this one, will think about this part of it further
-        private bool _specialEvent;
+        public enum SpecialEventType
+        {
+            None,
+            Holiday,
+            Birthday,
+            Anniversary,
+            Other
+        }
 
-        public bool SpecialEvent
+        private SpecialEventType _specialEvent;
+
+        public SpecialEventType SpecialEvent
         {
             get { return _specialEvent; }
             set { _specialEvent = value; }
         }
-
-
-
     }
 }
