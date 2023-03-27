@@ -57,6 +57,5 @@
             get { return _calendar; }
             set { _calendar = value; }
         }
-
     }
 }

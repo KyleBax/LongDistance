@@ -18,21 +18,14 @@
             set { _sentTime = value; }
         }
 
-        private int _senderUserID;
+        private User _sender;
 
-        public int SenderUserID
+        public User Sender
         {
-            get { return _senderUserID; }
-            set { _senderUserID = value; }
+            get { return _sender; }
+            set { _sender = value; }
         }
 
-        private int _receiverUserID;
-
-        public int ReceiverUserID
-        {
-            get { return _receiverUserID; }
-            set { _receiverUserID = value; }
-        }
 
     }
 }
